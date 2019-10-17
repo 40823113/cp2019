@@ -1,7 +1,15 @@
 <h1>About</h1>
 <p><a href="http://mde.tw/cp2019">http:"//mde.tw/cp2019</a> </p>
-<p><a href="https://dartpad.dev/?id=9c82578077dc4505c2c7eaac27fb632c">https://dartpad.dev/?id=9c82578077dc4505c2c7eaac27fb632c</a></p>
-<p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=9c82578077dc4505c2c7eaac27fb632c" width="800"></iframe></p><h1>Develop</h1>
+<p>dartpad:     <a href="https://dartpad.dev/?id=1c5dad59dbd1371c1dcefa737203554c">https://dartpad.dev/?id=1c5dad59dbd1371c1dcefa737203554c</a></p>
+<p>gist:               <a href="https://gist.github.com/40823113/1c5dad59dbd1371c1dcefa737203554c">https://gist.github.com/40823113/1c5dad59dbd1371c1dcefa737203554c</a></p>
+<p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=9c82578077dc4505c2c7eaac27fb632c" width="800"></iframe></p>
+<h1>Develop</h1>
+<p><iframe height="500" src="https://dartpad.dartlang.org/?id=0011f9f16865def2310ce0d4419a56c2" width="428"></iframe></p>
+<pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">void main() {
+  for (int i = 0; i &lt; 5; i++) {
+    print('hello ${i + 1}');
+  }
+}</pre>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
