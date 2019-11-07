@@ -17,7 +17,7 @@
   <link href="../../" rel="canonical" />
 
   <!-- Feed -->
-        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMSimfly 網際內容管理 Full Atom Feed" />
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="40823113cp2019 Full Atom Feed" />
 
   <link href="../../theme/css/style.css" type="text/css" rel="stylesheet" />
 
@@ -42,9 +42,9 @@
 
 
 <!-- Open Graph -->
-<meta property="og:site_name" content="CMSimfly 網際內容管理"/>
+<meta property="og:site_name" content="40823113cp2019"/>
 <meta property="og:type" content="blog"/>
-<meta property="og:title" content="CMSimfly 網際內容管理"/>
+<meta property="og:title" content="40823113cp2019"/>
 <meta property="og:description" content="View the blog."/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="../../"/>
@@ -56,25 +56,101 @@
 {
   "@context" : "http://schema.org",
   "@type" : "Website",
-  "name": " CMSimfly 網際內容管理 ",
+  "name": " 40823113cp2019 ",
   "url" : "../../",
   "image": "../../theme/images/home-bg.jpg",
   "description": "View the blog."
 }
 </script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shCore.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushJScript.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushJava.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushPython.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushSql.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushXml.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushPhp.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushCpp.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushCss.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushCSharp.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushBash.js"></script>
-<script type="text/javascript" src="./../data/syntaxhighlighter/shBrushLua.js"></script>
-<script type='text/javascript'>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript">
+    (function(){
+        var corecss = document.createElement('link');
+        var themecss = document.createElement('link');
+        var corecssurl = "./../cmsimde/static/syntaxhighlighter/css/shCore.css";
+        if ( corecss.setAttribute ) {
+                corecss.setAttribute( "rel", "stylesheet" );
+                corecss.setAttribute( "type", "text/css" );
+                corecss.setAttribute( "href", corecssurl );
+        } else {
+                corecss.rel = "stylesheet";
+                corecss.href = corecssurl;
+        }
+        document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+        var themecssurl = "./../cmsimde/static/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+        if ( themecss.setAttribute ) {
+                themecss.setAttribute( "rel", "stylesheet" );
+                themecss.setAttribute( "type", "text/css" );
+                themecss.setAttribute( "href", themecssurl );
+        } else {
+                themecss.rel = "stylesheet";
+                themecss.href = themecssurl;
+        }
+        //document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+        document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+    })();
+    SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+    SyntaxHighlighter.config.strings.help = '?';
+    SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+    SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+    SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+    SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;
+    SyntaxHighlighter.all();
+</script>
+ 
+<!-- for LaTeX equations -->
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+
+    (function(){
+        var corecss = document.createElement('link');
+        var themecss = document.createElement('link');
+        var corecssurl = "./../cmsimde/static/syntaxhighlighter/css/shCore.css";
+        if ( corecss.setAttribute ) {
+                corecss.setAttribute( "rel", "stylesheet" );
+                corecss.setAttribute( "type", "text/css" );
+                corecss.setAttribute( "href", corecssurl );
+        } else {
+                corecss.rel = "stylesheet";
+                corecss.href = corecssurl;
+        }
+        document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+        var themecssurl = "./../cmsimde/static/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+        if ( themecss.setAttribute ) {
+                themecss.setAttribute( "rel", "stylesheet" );
+                themecss.setAttribute( "type", "text/css" );
+                themecss.setAttribute( "href", themecssurl );
+        } else {
+                themecss.rel = "stylesheet";
+                themecss.href = themecssurl;
+        }
+        //document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+        document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+    })();
+    SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+    SyntaxHighlighter.config.strings.help = '?';
+    SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+    SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+    SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+    SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;
+    SyntaxHighlighter.all();
+</script>
+ 
+<!-- for LaTeX equations -->
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+
 	(function(){
 		var corecss = document.createElement('link');
 		var themecss = document.createElement('link');
