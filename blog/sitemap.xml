@@ -4,63 +4,63 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>./</loc>
-<lastmod>2019-11-07T12:05:22-00:00</lastmod>
+<loc>https://40823113.github.io/cp2019/blog/</loc>
+<lastmod>2019-11-20T21:50:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./archives.html</loc>
-<lastmod>2019-11-07T12:05:22-00:00</lastmod>
+<loc>https://40823113.github.io/cp2019/blog/archives.html</loc>
+<lastmod>2019-11-20T21:50:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tags.html</loc>
-<lastmod>2019-11-07T12:05:22-00:00</lastmod>
+<loc>https://40823113.github.io/cp2019/blog/tags.html</loc>
+<lastmod>2019-11-20T21:50:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./categories.html</loc>
-<lastmod>2019-11-07T12:05:22-00:00</lastmod>
+<loc>https://40823113.github.io/cp2019/blog/categories.html</loc>
+<lastmod>2019-11-20T21:50:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./pages/about/</loc>
+<loc>https://40823113.github.io/cp2019/blog/pages/about/</loc>
 <lastmod>2019-09-19T23:04:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./2018-Fall-32-bit-Windows.html</loc>
+<loc>https://40823113.github.io/cp2019/blog/2018-Fall-32-bit-Windows.html</loc>
 <lastmod>0201-09-10T11:00:00+08:06</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./category/misc.html</loc>
+<loc>https://40823113.github.io/cp2019/blog/category/misc.html</loc>
 <lastmod>0201-09-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/2018fallcp.html</loc>
+<loc>https://40823113.github.io/cp2019/blog/tag/2018fallcp.html</loc>
 <lastmod>0201-09-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./author/40823113.html</loc>
+<loc>https://40823113.github.io/cp2019/blog/author/40823113.html</loc>
 <lastmod>0201-09-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
