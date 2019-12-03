@@ -1,12 +1,12 @@
 /*
 void main() {
- print("40823113");
+ print("Hello, World!");
 }
 */
 
 /*
  * 主函式也可以利用 => 定義單行的函式內容
-main() => print("40823113");
+main() => print("Hello, World!");
 */
 
 /*
