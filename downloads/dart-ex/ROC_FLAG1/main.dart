@@ -20,23 +20,12 @@ void main() {
 
 void drawUSA(ctx){
 
-   ctx.clearRect(0, 0, flag_w, flag_h);
+ ctx.clearRect(0, 0, flag_w, flag_h);
   ctx.fillStyle = 'rgb(255, 0, 0)';
   ctx.fillRect(0, 0, flag_w, flag_h);
+  for ( int i = 1; i <= 11; i+=2) {
   ctx.fillStyle = 'rgb(255, 255, 255)';
-  ctx.fillRect(0, 15.4, flag_w / 1, flag_h / 13);
-  ctx.fillStyle = 'rgb(255, 255, 255)';
-  ctx.fillRect(0, 46.2, flag_w / 1, flag_h / 13);
-  ctx.fillStyle = 'rgb(255, 255, 255)';
-  ctx.fillRect(0, 77.2, flag_w / 1, flag_h / 13);
-  ctx.fillStyle = 'rgb(255, 255, 255)';
-  ctx.fillRect(0, 108.0, flag_w / 1, flag_h / 13);
-  ctx.fillStyle = 'rgb(255, 255, 255)';
-  ctx.fillRect(0, 138.8, flag_w / 1, flag_h / 13);
-  ctx.fillStyle = 'rgb(255, 255, 255)';
-  ctx.fillRect(0, 169.6, flag_w / 1, flag_h / 13);
-  ctx.fillStyle = 'rgb(255, 255, 255)';
-  ctx.fillRect(0, 200.4, flag_w / 1, flag_h / 13);
+  ctx.fillRect(0, 15.4*i, flag_w, 15.4); }
   ctx.fillStyle = 'rgb(0, 0, 150)';
   ctx.fillRect(0, 0, flag_w / 2, flag_h / 1.9);
     num b = flag_h/18;
