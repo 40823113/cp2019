@@ -149,11 +149,25 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='W16 查驗考試.html'>Next</a> >> W16 查驗考試<br /><h1>期中</h1>
-<p><br/><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/HwALnqcq22Y" width="560"></iframe>About</p>
-<p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=0ff4002e627cf28d8332a166a4dc31c3" width="800"></iframe></p>
-<p><br/><img alt="" height="288" src="./../images/模擬.png" width="480"/> <br/><img alt="" height="290" src="./../images/模擬2.png" width="482"/></p>
-<br /> <a href='W16 查驗考試.html'>Next</a> >> W16 查驗考試</div>
+    <div id="tipue_search_content">W16 查驗考試 << <a href='W16 查驗考試.html'>Previous</a> <a href='DARTPAD.html'>Next</a> >> DARTPAD<br /><h1>W17 考試</h1>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823113&gh_repo=cp2019&gh_path=downloads/dart-ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823113&gh_repo=cp2019&gh_path=downloads/dart-ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+</script>
+<h4>純 Dart 程式</h4>
+<p><button onclick="getDart('weight')">kgtolb</button></p>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('kgbutton')">kgtolb</button></p>
+<p><!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p><br />W16 查驗考試 << <a href='W16 查驗考試.html'>Previous</a> <a href='DARTPAD.html'>Next</a> >> DARTPAD</div>
         
     <!-- footer -->
       <div class="container">
