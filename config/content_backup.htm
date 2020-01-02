@@ -14,7 +14,25 @@ function getDart(dirname){
 <h4>純 Dart 程式</h4>
 <p><button onclick="getDart('hello')">Hello</button> <button onclick="getDart('for')">For Loop</button> <button onclick="getDart('sum')">Sum</button> <button onclick="getDart('runge_kutta')">Runge-Kutta</button> <button onclick="getDart('rk_ex1')">RK ex1</button> <button onclick="getDart('mass_spring_damping')">Mass Spring Damping</button> <button onclick="getDart('cf')">temperature</button> <button onclick="getDart('temp1')">temperature1</button></p>
 <p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p>
-<h1>DARTPAD</h1>
+<h1>W17 考試</h1>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823113&gh_repo=cp2019&gh_path=downloads/dart-ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823113&gh_repo=cp2019&gh_path=downloads/dart-ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+</script>
+<h4>純 Dart 程式</h4>
+<p><button onclick="getDart('weight')">Hello</button></p>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('kgbutton')">ROC Flag</button></p>
+<p><!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p><h1>DARTPAD</h1>
 <p><iframe height="500" src="https://dartpad.dartlang.org/?id=0011f9f16865def2310ce0d4419a56c2" width="428"></iframe></p>
 <pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">void main() {
   for (int i = 0; i &lt; 5; i++) {
@@ -68,14 +86,14 @@ document.getElementById("iframe").height = 600 ;
 <h2>W13溫度JS</h2>
 <p>輸入所要轉換的溫度 <input id="F" max="125" min="-40" type="string" value="25F"/> <input id="submit" type="button" value="轉換"/> 轉換結果: <label id="output"></label></p>
 <script src="/downloads/dart-ex/list/list.js"></script>
-<h2>W16 USA國旗js</h2>
-<p>USA國旗</p>
-<div id="wrapper"><canvas height="200" id="canvas" width="300"></canvas> <button id="button">Clear Canvas</button> <button id="usa">Draw USA</button></div>
-<script src="/downloads/dart-ex/USA_FLAG1/usa.js"></script>
 <h2>W16 ROC國旗js</h2>
 <p>Taiwan國旗</p>
 <div id="wrapper"><canvas height="200" id="canvas" width="300"></canvas> <button id="button">Clear Canvas</button> <button id="roc">Draw ROC</button> <button id="usa">Draw USA</button></div>
 <script src="/downloads/dart-ex/ROC_FLAG1/roc.js"></script>
+<h2>W16 USA國旗js</h2>
+<p>USA國旗</p>
+<div id="wrapper"><canvas height="200" id="canvas" width="300"></canvas> <button id="button">Clear Canvas</button> <button id="usa">Draw USA</button></div>
+<script src="/downloads/dart-ex/USA_FLAG1/usa.js"></script>
 <h1>溫度轉換影片(dart  、 HTML)</h1>
 <h4>                                                         <span style="color: #0000ff;">DART </span></h4>
 <p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/4TUREqv7Svk" width="560"></iframe></p>

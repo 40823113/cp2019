@@ -16,7 +16,7 @@ main() {
     type = data[len-2];
     number = data.substring(0, len-2);
     number = int.parse(number);
-    if (type == "kg"){
+    if (type == "k"){
       print(" $number 公斤 =  ${kgtolb(number)} 磅");
     }else{
       print(" $number 磅 =  ${lbtokg(number)} 公斤");
